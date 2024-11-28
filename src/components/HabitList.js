@@ -7,7 +7,7 @@ export default function HabitList({ habits, onToggleHabit, onDeleteHabit }) {
       {habits.map((habit) => (
         <Habit
           key={habit.id}
-          habit={habit}
+          habits={habit}
           onToggleHabit={onToggleHabit}
           onDeleteHabit={onDeleteHabit}
         />
